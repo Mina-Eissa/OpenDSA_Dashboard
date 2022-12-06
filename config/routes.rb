@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root "pages#index"
-  get "*pages" , to:"pages#index",via: :all
+  root "pages#Excercise_analysis"
+  get "*pages" , to:"pages#Excercise_analysis",via: :all
   
 end
